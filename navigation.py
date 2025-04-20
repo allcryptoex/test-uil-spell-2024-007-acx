@@ -71,7 +71,7 @@ def logout():
     st.info("✔️Logged out successfully!")
     sleep(0.5)
     
-    # st.switch_page("streamlit_app.py")
+    st.switch_page("streamlit_app.py")
 
     # Instead of switching pages immediately, rerun the app to refresh the session state
-    st.experimental_rerun()
+    # st.experimental_rerun()
