@@ -6,8 +6,8 @@ from time import sleep
 # Function to get the current page name
 def get_current_page_name():
     # Simply return the name of the page based on the script that is currently running
-    # return st.experimental_get_query_params().get('page', ['streamlit_app'])[0]
-    # `st.experimental_get_query_params` will be removed after 2024-04-11.
+    # # return st.experimental_get_query_params().get('page', ['streamlit_app'])[0]
+    # # `st.experimental_get_query_params` will be removed after 2024-04-11.
     # return st.query_params().get('page', ['streamlit_app'])[0]
     # return st.session_state.get("page", "streamlit_app.py")
     return "streamlit_app.py"
